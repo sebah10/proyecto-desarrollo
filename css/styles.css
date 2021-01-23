@@ -571,6 +571,79 @@ body {
     line-height: 20px;
 }
 
+
+
+/* CONTACTO */
+
+.form {
+    background: var(--black1);
+    height: 480px;
+}
+
+.contact__form {
+    width: 100%;
+    padding: 0 30%;
+}
+
+.formulario h2 {
+    color: var(--waterblue);
+    font-size: 2.5em;
+    text-transform: uppercase; 
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+
+.form input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+    color: var(--black1);
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: var(--waterblue);
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+
+}
+
+.contacto_item {
+    width: 25%;
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+}
+
+.contacto_item a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.redes-sociales .socialmedia__icon {
+    font-size: 25px;
+    margin: 0;
+    color: var(--waterblue);
+
+} 
+
+
 @media screen and (max-width:900px) {
     .mockup {
         width: 600px;
@@ -685,7 +758,7 @@ body {
         flex-direction: column-reverse;
         justify-content: flex-end;
         height: auto;
-        /* padding: 30px 0; */
+        /* padding: 30px 0;
     }
 
     .hero__textos{
@@ -824,3 +897,6 @@ body {
         font-size: 30px;
     }
 }
+
+
+
